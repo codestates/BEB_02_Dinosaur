@@ -25,7 +25,6 @@ function Erc721({ web3, account, erc721list }) {
             <span className="symbol">{token.symbol}</span>)
             <div className="nft">id: {token.tokenId}</div>
             <img src={token.tokenURI} width={300} />
-            /* nft 전송 관련 */
             <div className="tokenTransfer">
               To:{" "}
               <input

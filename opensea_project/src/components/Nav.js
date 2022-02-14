@@ -24,7 +24,9 @@ function Nav({ connectWallet }) {
         <button type="button" className="navIcon">
           <AccountCircle fontSize="large" />
         </button>
-        <ConnectWallet className="navIcon" connectWallet={connectWallet} />
+        <button>
+          <ConnectWallet className="navIcon" connectWallet={connectWallet} />
+        </button>
       </div>
     </div>
   );
