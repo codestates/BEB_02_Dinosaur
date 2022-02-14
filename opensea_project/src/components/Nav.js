@@ -1,12 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import {
-  Search,
-  AccountCircle,
-  AccountBalanceWallet,
-} from "@material-ui/icons";
+import ConnectWallet from "./ConnectWallet";
+import { Search, AccountCircle } from "@material-ui/icons";
 
-function Nav(connectWallet) {
+function Nav({ connectWallet }) {
   return (
     <div id="nav-body">
       <span className="title">
@@ -22,23 +19,12 @@ function Nav(connectWallet) {
         ></input>
       </div>
       <div id="menu">
-        <Link to="/explore" className="dropdown">
-          Explore
-        </Link>
-        <Link to="/create_nft" className="dropdown">
-          Create
-        </Link>
+        {/* <Link to="/explore">Explore</Link> */}
+        {/* <Link to="/create_nft">Create</Link> */}
         <button type="button" className="navIcon">
           <AccountCircle fontSize="large" />
         </button>
-        <AccountBalanceWallet
-          fontSize="large"
-          style={{ paddingRight: "10px" }}
-          className="navIcon"
-          onClick={() => connectWallet()}
-        >
-          <span>Connect</span>
-        </AccountBalanceWallet>
+        <ConnectWallet className="navIcon" connectWallet={connectWallet} />
       </div>
     </div>
   );
