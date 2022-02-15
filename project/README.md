@@ -2,7 +2,7 @@
 # Welcome to Dinosaur Page!
 
 ## Project 1
-소요시간 : 10 sec
+소요시간 : 5 days
 
 ## 준비물
 <br>
