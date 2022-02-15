@@ -159,13 +159,11 @@ h2 {
     transform: rotate(360deg);
   }
 }
-<<<<<<< HEAD
-
 
 .div {
   overflow:scroll;
 
-=======
+
 a:link {
   color: rgb(255, 255, 255);
 }
@@ -177,5 +175,6 @@ a:hover {
 }
 a:active {
   color: rgb(255, 255, 255);
->>>>>>> ab04c13fba97d03d0a1bbb19c26e044ba5487655
 }
+
+  
