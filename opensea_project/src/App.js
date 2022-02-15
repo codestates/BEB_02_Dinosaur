@@ -7,14 +7,12 @@ import NFTlist from "./components/NFTlist";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import erc721Abi from "./erc721Abi";
 import TokenList from "./components/TokenList";
-import default_Img from "./components/imgs/nft.png";
 
 function App() {
   const [web3, setWeb3] = useState();
   const [account, setAccount] = useState("");
   const [erc721list, setErc721list] = useState([]); // 자신의 NFT 정보를 저장할 토큰
   const [newErc721addr, setNewErc721Addr] = useState();
-  const onErrorImg = (e) => {e.target.src = default_Img;}
 
   useEffect(() => {
     if (typeof window.ethereum !== "undefined") {
@@ -62,8 +60,8 @@ function App() {
   return (
     <div className="App">
       <Nav connectWallet={connectWallet} />
-      <div className="userInfo">Address: {account}</div>
-      <div className="newErc721">
+      {/* <div className="userInfo">Address: {account}</div> */}
+      {/* <div className="newErc721">
         <input class ="searchBox_contract"
           type="text"
           placeholder="Enter you contract address"
@@ -72,7 +70,7 @@ function App() {
           }}
         ></input>
         <button class ="w-btn w-btn-gra1 w-btn-gra-anim" onClick={addNewErc721Token}>Find my NFT</button>
-      </div>
+      </div> */}
       <TokenList web3={web3} account={account} erc721list={erc721list} />
       {/* router 사용할 경우 NFTlist 부분에 tokenlist 부분 넣기 */}
       {/* <Router>
@@ -82,6 +80,11 @@ function App() {
           <Route path="/nfts" element={<NFTlist />} />
         </Routes>
       </Router> */}
+      <Router>
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+        </Routes>
+      </Router> 
     </div>
   );
 }
