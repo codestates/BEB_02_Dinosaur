@@ -13,9 +13,6 @@ function App() {
   const [account, setAccount] = useState("");
   const [erc721list, setErc721list] = useState([]); // 자신의 NFT 정보를 저장할 토큰
   const [newErc721addr, setNewErc721Addr] = useState();
-  // const [erc721list, setErc721list] = useState([]); // 자신의 NFT 정보를 저장할 토큰
-  // const [newErc721addr, setNewErc721Addr] = useState();
->>>>>>> ab04c13fba97d03d0a1bbb19c26e044ba5487655
 
   useEffect(() => {
     if (typeof window.ethereum !== "undefined") {
@@ -35,6 +32,31 @@ function App() {
     setAccount(accounts[0]);
   };
 
+  const addNewErc721Token = async () => {
+    const tokenContract = await new web3.eth.Contract(
+      erc721Abi,
+      newErc721addr,
+      { from: account }
+    );
+    const name = await tokenContract.methods.name().call();
+    const symbol = await tokenContract.methods.symbol().call();
+    const totalSupply = await tokenContract.methods.totalSupply().call();
+
+    let arr = [];
+    for (let i = 1; i <= totalSupply; i++) {
+      arr.push(i);
+    }
+
+    for (let tokenId of arr) {
+      let tokenOwner = await tokenContract.methods.ownerOf(tokenId).call();
+      if (String(tokenOwner).toLowerCase() === account) {
+        let tokenURI = await tokenContract.methods.tokenURI(tokenId).call();
+        setErc721list((prevState) => {
+          return [...prevState, { name, symbol, tokenId, tokenURI }];
+        });
+      }
+    }
+  };
   return (
     <div className="App">
       <Nav connectWallet={connectWallet} />
@@ -53,13 +75,9 @@ function App() {
       {/* router 사용할 경우 NFTlist 부분에 tokenlist 부분 넣기 */}
       {/* <Router>
         <Nav connectWallet={connectWallet} />
-        <div className="userInfo">Address: {account}</div>
         <Routes>
           <Route path="/" element={<Homepage />} />
-          <Route
-            path="/nfts"
-            element={<TokenList web3={web3} account={account} />}
-          />
+          <Route path="/nfts" element={<NFTlist />} />
         </Routes>
       </Router> */}
       <Router>
