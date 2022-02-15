@@ -61,7 +61,6 @@
   padding-left: 20px;
   font-weight: 300;
   color: #19543e;
-
 }
 
 #menu {
@@ -103,8 +102,7 @@ h2 {
 .userInfo {
   font-family: "paybooc-Light", sans-serif;
   font-size: 20px;
-  margin : 30px;
-
+  margin: 30px;
 }
 
 .w-btn {
@@ -143,16 +141,15 @@ h2 {
 
 @keyframes gradient1 {
   0% {
-      background-position: 0% 50%;
+    background-position: 0% 50%;
   }
   50% {
-      background-position: 100% 50%;
+    background-position: 100% 50%;
   }
   100% {
-      background-position: 0% 50%;
+    background-position: 0% 50%;
   }
 }
-
 
 @keyframes App-logo-spin {
   from {
@@ -162,9 +159,23 @@ h2 {
     transform: rotate(360deg);
   }
 }
+<<<<<<< HEAD
 
 
 .div {
   overflow:scroll;
 
+=======
+a:link {
+  color: rgb(255, 255, 255);
+}
+a:visited {
+  color: rgb(255, 255, 255);
+}
+a:hover {
+  color: rgb(255, 255, 255);
+}
+a:active {
+  color: rgb(255, 255, 255);
+>>>>>>> ab04c13fba97d03d0a1bbb19c26e044ba5487655
 }
