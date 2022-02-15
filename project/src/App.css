@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+
+#nav-body {
+  background-color: #19543e;
+  width: 100%;
+  height: 3.5rem;
+  position: sticky;
+  top: 0;
+  border-bottom: solid 1px rgb(212, 212, 212);
+  display: grid;
+  place-items: center;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 1rem;
+  color: white;
+  position: absolute;
+  left: 3vw;
+}
+
+#logo {
+  width: 40px;
+  margin-right: 1rem;
+  vertical-align: middle;
+}
+
+.name {
+  vertical-align: middle;
+}
+
+.search-container {
+  color: white;
+  position: relative;
+  right: 10vw;
+}
+
+.searchBox {
+  float: right;
+  width: 30vw;
+  border-radius: 13px;
+  height: 40px;
+  margin-left: 10px;
+  padding-left: 20px;
+  font-weight: 300;
+}
+
+.searchBox_contract {
+  float: center;
+  width: 40vw;
+  border-radius: 13px;
+  height: 40px;
+  margin-left: 10px;
+  padding-left: 20px;
+  font-weight: 300;
+  color: #19543e;
+
+}
+
+#menu {
+  margin: 1.5rem;
+  right: 0;
+  font-weight: 400;
+  position: absolute;
+  color: white;
+}
+
+.navIcon {
+  cursor: pointer;
+  color: white;
+  font-weight: 700;
+  font-size: medium;
+  background-color: #19543e;
+  border: 0px;
+  outline: 0px;
+  padding: 0 20px 0 0;
+  vertical-align: middle;
+}
+
+.homepage {
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+h2 {
+  color: #fff;
+  font-size: xx-large;
+  position: relative;
+  top: 20vh;
+  right: 20vw;
+}
+
+.userInfo {
+  font-family: "paybooc-Light", sans-serif;
+  font-size: 20px;
+  margin : 30px;
+
+}
+
+.w-btn {
+  position: relative;
+  border: none;
+  margin: 30px;
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 15px;
+  font-family: "paybooc-Light", sans-serif;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.25s;
+}
+
+.w-btn:hover {
+  letter-spacing: 2px;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.w-btn:active {
+  transform: scale(1.5);
+}
+
+.w-btn-gra1 {
+  background: linear-gradient(-45deg, #33ccff 0%, #19543e 100%);
+  color: white;
+}
+
+.w-btn-gra-anim {
+  background-size: 400% 400%;
+  animation: gradient1 5s ease infinite;
+}
+
+@keyframes gradient1 {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.div {
+  overflow:scroll;
+
+}
