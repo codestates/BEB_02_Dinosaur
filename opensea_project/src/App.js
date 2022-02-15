@@ -7,12 +7,14 @@ import NFTlist from "./components/NFTlist";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import erc721Abi from "./erc721Abi";
 import TokenList from "./components/TokenList";
+import default_Img from "./components/imgs/nft.png";
 
 function App() {
   const [web3, setWeb3] = useState();
   const [account, setAccount] = useState("");
   const [erc721list, setErc721list] = useState([]); // 자신의 NFT 정보를 저장할 토큰
   const [newErc721addr, setNewErc721Addr] = useState();
+  const onErrorImg = (e) => {e.target.src = default_Img;}
 
   useEffect(() => {
     if (typeof window.ethereum !== "undefined") {

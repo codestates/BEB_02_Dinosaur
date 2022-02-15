@@ -2,12 +2,16 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ConnectWallet from "./ConnectWallet";
 import { Search, AccountCircle } from "@material-ui/icons";
+import default_Img from "./imgs/dinosaur.png";
+
 
 function Nav({ connectWallet }) {
+
   return (
     <div id="nav-body">
       <span className="title">
-        <img id="logo" src="./imgs/dinosaur.png" alt="logo" />
+        {/* <img id="logo" src="./imgs/dinosaur.png" alt="logo" /> */}
+        <img id = "logo" src={default_Img}/>
         <span className="name">Dinosaur</span>
       </span>
       <div className="search-container">
