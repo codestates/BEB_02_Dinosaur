@@ -4,7 +4,7 @@ import ConnectWallet from "./ConnectWallet";
 import { Search, AccountCircle } from "@material-ui/icons";
 import default_Img from "./imgs/dinosaur.png";
 
-function Nav({ connectWallet }) {
+function Nav({ connectWallet, account }) {
   return (
     <div id="nav-body">
       <span className="title">
@@ -32,7 +32,11 @@ function Nav({ connectWallet }) {
           </Link>
         </span>
         <span id="wallet">
-          <ConnectWallet className="navIcon" connectWallet={connectWallet} />
+          <ConnectWallet
+            className="navIcon"
+            connectWallet={connectWallet}
+            account={account}
+          />
         </span>{" "}
       </div>
     </div>
