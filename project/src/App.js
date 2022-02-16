@@ -4,6 +4,7 @@ import Web3 from "web3";
 import Nav from "./components/Nav";
 import Homepage from "./components/Homepage";
 import NFTlist from "./components/NFTlist";
+import Footer from "./components/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import erc721Abi from "./erc721Abi";
 import TokenList from "./components/TokenList";
@@ -40,7 +41,6 @@ function App() {
     <div className="App">
       <Router>
         <Nav connectWallet={connectWallet} />
-
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route
@@ -48,6 +48,7 @@ function App() {
             element={<TokenList web3={web3} account={account} />}
           />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );
