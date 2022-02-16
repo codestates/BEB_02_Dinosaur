@@ -8,12 +8,10 @@ function Nav({ connectWallet, account }) {
   return (
     <div id="nav-body">
       <span className="title">
-        {/* <img id="logo" src="./imgs/dinosaur.png" alt="logo" /> */}
         <img id="logo" src={default_Img} />
         <span className="name">
           <Link to="/" style={{ textDecoration: "none" }}>
-            {" "}
-            Dinosaur{" "}
+            Dinosaur
           </Link>
         </span>
       </span>
@@ -37,7 +35,7 @@ function Nav({ connectWallet, account }) {
             connectWallet={connectWallet}
             account={account}
           />
-        </span>{" "}
+        </span>
       </div>
     </div>
   );

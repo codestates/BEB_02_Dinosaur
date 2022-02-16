@@ -26,16 +26,17 @@ function Erc721({ web3, account, erc721list }) {
             <div className="nft">id: {token.tokenId}</div>
             <img src={token.tokenURI} width={300} />
             <div className="tokenTransfer">
-              To:{" "}
               <input
+                class="sendBox_contract"
                 type="text"
+                placeholder="recipient address"
                 value={to}
                 onChange={(e) => {
                   setTo(e.target.value);
                 }}
               ></input>
               <button
-                className="sendErc20Btn"
+                className="w-btn w-btn-gra1 w-btn-gra-anim"
                 onClick={sendToken.bind(this, token.address, token.tokenId)}
               >
                 send Token
