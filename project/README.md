@@ -41,12 +41,17 @@
 <br>
 <br>
 좀 더 디자인을 해서 아래와 같이 바뀌었다!
+<br>
+
 <img width="1436" alt="시작" src="https://user-images.githubusercontent.com/62411918/154217943-4cebc47d-e260-4ea3-84fb-1d54739ccd73.png">
 
 <br>
 
-### 2/15 현재, Bare Minimum 을 넘어서 Advanced로!
+오늘은 git에 최종본 업데이트를 하다가 뒤집어져서 긴급하게 다른 폴더를 열어 프로젝트를 진행했다. 너무 놀랐지만, git을 좀 더 똑똑하게(?) 사용할 수 있는 계기가 되었다.
+<br>
 
+### 2/15 현재, Bare Minimum 을 넘어서 Advanced로!
+<br>
 중간 점검
 <img width="1436" alt="Screenshot 2022-02-15 at 15 04 19" src="https://user-images.githubusercontent.com/62411918/154002267-03864cb0-2619-4eae-9b2a-830108c8000c.png">
 
