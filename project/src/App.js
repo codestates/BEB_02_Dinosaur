@@ -40,7 +40,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Nav connectWallet={connectWallet} />
+        <Nav connectWallet={connectWallet} account={account} />
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route

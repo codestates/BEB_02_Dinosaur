@@ -82,7 +82,8 @@
   border: 0px;
   outline: 0px;
   padding: 0 20px 0 0;
-  vertical-align: middle;
+  /* vertical-align: middle; */
+  /* text-align: center; */
 }
 
 .homepage {
