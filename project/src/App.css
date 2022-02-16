@@ -90,7 +90,7 @@
   background-color: white;
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
+  overflow: scroll;
   margin: 0;
 }
 
@@ -163,9 +163,7 @@ h2 {
   }
 }
 
-.div {
-  overflow: scroll;
-}
+
 a:link {
   color: rgb(255, 255, 255);
 }

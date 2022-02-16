@@ -5,6 +5,12 @@
 
   }
 
+  html, body {
+	height: 100%;
+	overflow: scroll;
+
+}
+
 a {
     color: inherit;
     text-decoration: none;
@@ -67,7 +73,6 @@ html {
 
 .div {
     display: block;
-    overflow:auto;
 
 
   }
@@ -114,11 +119,12 @@ html {
 }
 
 .nft-item-title {
-        font-family: 'Domine';
-        /* font-family: "Arial"; */
-        /* font-family: var(--serif); */
-        font-size: 20px;
-        line-height: calc(22 / 17);
+    color :#000;
+    font-family: 'Domine';
+    /* font-family: "Arial"; */
+    /* font-family: var(--serif); */
+    font-size: 20px;
+    line-height: calc(22 / 17);
 }
 
 .explanation-title {
@@ -148,6 +154,7 @@ h1 {
 }
 
 .nft-item-date {
+    color:#000;
     font-family: "Archivo";
     padding-top: 0.5em;
 }
@@ -174,6 +181,7 @@ small {
 }
   
 
-.view {
-    overflow: visible;
+.search-container {
+    justify-content: space-between;
+    margin-left: 17em;
 }
