@@ -123,16 +123,7 @@ https://user-images.githubusercontent.com/62411918/154217640-75a08a3f-2215-4ece-
 <br>
 
 프로필 페이지이다. 컨트랙트를 입력하여 NFT를 찾아볼 수 있는 페이지를 메인페이지에서 분리했다. 지갑 주소가 화면에서 Address에서 바로 보이고 Find My NFT 버튼을 누르면 발행된 NFT 리스트를 볼 수 있다.
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
-
-또한 다른 네트워크에서 Rinkeby 네트워크에서 스마트 컨트랙트를 배포하여 진돗개 NFT List를 가져올 수 있었다.
+또한 다른 네트워크에서 Rinkeby 네트워크에서 스마트 컨트랙트를 배포하여 진돗개 NFT List를 가져올 수 있게 진행했다.
 
 <br>
 <br>
