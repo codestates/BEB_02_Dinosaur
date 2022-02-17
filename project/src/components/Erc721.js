@@ -1,5 +1,42 @@
 import { useState } from "react";
 import erc721Abi from "../../../project/src/erc721Abi";
+import styled from "styled-components";
+import transfer from "./imgs/transfer.png";
+
+const Mytokens = styled.div`
+  margin-top: 2%;
+`;
+const Token = styled.div`
+  float: left;
+  width: 23vw;
+  height: 49vh;
+  margin: 0 0 2% 1%;
+  border: ridge;
+  border-radius: 8px;
+`;
+const Nftimg = styled.img`
+  width: 100%;
+  height: 40vh;
+`;
+
+const Name = styled.div`
+  float: left;
+  color: #545b62;
+`;
+
+const Iddiv = styled.div`
+  clear: left;
+  float: left;
+  color: black;
+`;
+
+const Transfer = styled.img`
+  width: 25px;
+  clear: both;
+  float: right;
+`;
+
+const TokenTransfer = styled.div``;
 
 function Erc721({ web3, account, erc721list }) {
   const [to, setTo] = useState("");
@@ -16,16 +53,18 @@ function Erc721({ web3, account, erc721list }) {
         setTo("");
       });
   };
+
   return (
-    <div className="erc721list">
+    <Mytokens>
       {erc721list.map((token) => {
         return (
-          <div className="erc721token">
-            Name: <span className="name">{token.name}</span>(
-            <span className="symbol">{token.symbol}</span>)
-            <div className="nft">id: {token.tokenId}</div>
-            <img src={token.tokenURI} width={300} />
-            <div className="tokenTransfer">
+          <Token>
+            {/* (<span className="symbol">{token.symbol}</span>) */}
+            <Nftimg src={token.tokenURI} />
+            <Name>{token.name}</Name>
+            <Iddiv>{token.tokenId}</Iddiv>
+            <Transfer src={transfer} />
+            {/* <TokenTransfer>
               <input
                 class="sendBox_contract"
                 type="text"
@@ -41,11 +80,11 @@ function Erc721({ web3, account, erc721list }) {
               >
                 send Token
               </button>
-            </div>
-          </div>
+            </TokenTransfer> */}
+          </Token>
         );
       })}
-    </div>
+    </Mytokens>
   );
 }
 
