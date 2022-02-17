@@ -1,6 +1,20 @@
 import React, { useEffect, useState } from "react";
 import Erc721 from "./Erc721";
 import erc721Abi from "../erc721Abi";
+import styled from "styled-components";
+import profile from "./imgs/pic.png";
+
+const Profile = styled.img`
+  margin-top: 1%;
+  width: 15vh;
+`;
+
+const Mynfts = styled.div`
+  font-size: 25px;
+  font-weight: 500;
+`;
+
+const newErc721 = styled.div``;
 
 function TokenList({ web3, account }) {
   const [erc721list, setErc721list] = useState([]); // 자신의 NFT 정보를 저장할 토큰
@@ -30,26 +44,51 @@ function TokenList({ web3, account }) {
       }
     }
   };
+
+  <newErc721>
+    <input
+      class="searchBox_contract"
+      type="text"
+      placeholder="Enter you contract address"
+      onChange={(e) => {
+        setNewErc721Addr(e.target.value);
+      }}
+    ></input>
+    <button class="w-btn w-btn-gra1 w-btn-gra-anim" onClick={addNewErc721Token}>
+      Find my NFT
+    </button>
+  </newErc721>;
+
   return (
     <div className="tokenlist">
-      <div className="userInfo">Address: {account}</div>
-      <div className="newErc721">
-        <input
-          class="searchBox_contract"
-          type="text"
-          placeholder="Enter you contract address"
-          onChange={(e) => {
-            setNewErc721Addr(e.target.value);
-          }}
-        ></input>
-        <button
-          class="w-btn w-btn-gra1 w-btn-gra-anim"
-          onClick={addNewErc721Token}
-        >
-          Find my NFT
-        </button>
-        <Erc721 web3={web3} account={account} erc721list={erc721list} />
-      </div>
+      <Profile src={profile} />
+      <Mynfts>My NFTs</Mynfts>
+      <span>
+        {account
+          ? `${account.slice(0, 5)}..${account.slice(-4)}`
+          : `Please connect your Metamask wallet`}
+      </span>
+      <Erc721 web3={web3} account={account} erc721list={erc721list} />
+      {erc721list.length ? (
+        ``
+      ) : (
+        <newErc721>
+          <input
+            class="searchBox_contract"
+            type="text"
+            placeholder="Enter you contract address"
+            onChange={(e) => {
+              setNewErc721Addr(e.target.value);
+            }}
+          ></input>
+          <button
+            class="w-btn w-btn-gra1 w-btn-gra-anim"
+            onClick={addNewErc721Token}
+          >
+            Find my NFT
+          </button>
+        </newErc721>
+      )}
     </div>
   );
 }
