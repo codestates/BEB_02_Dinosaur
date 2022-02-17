@@ -40,24 +40,32 @@
 
 <br>
 <br>
+
 좀 더 디자인을 해서 아래와 같이 바뀌었다!
+
+<br>
 <br>
 
 <img width="1436" alt="시작" src="https://user-images.githubusercontent.com/62411918/154217943-4cebc47d-e260-4ea3-84fb-1d54739ccd73.png">
 
 <br>
+<br>
 
 오늘은 git에 최종본 업데이트를 하다가 뒤집어져서 긴급하게 다른 폴더를 열어 프로젝트를 진행했다. 너무 놀랐지만, git을 좀 더 똑똑하게(?) 사용할 수 있는 계기가 되었다.
+
+<br>
 <br>
 
 ### 2/15 현재, Bare Minimum 을 넘어서 Advanced로!
+
 <br>
+<br>
+
 중간 점검
 <img width="1436" alt="Screenshot 2022-02-15 at 15 04 19" src="https://user-images.githubusercontent.com/62411918/154002267-03864cb0-2619-4eae-9b2a-830108c8000c.png">
 
 
 https://user-images.githubusercontent.com/62411918/154218087-c19bec1e-9c3c-414c-922e-e6af36dc22e2.mov
-
 
 <br>
 <br>
@@ -67,9 +75,10 @@ https://user-images.githubusercontent.com/62411918/154218087-c19bec1e-9c3c-414c-
 
 <br>
 <br>
+
 <img width="881" alt="Screenshot_2022-02-15_at_11 00 32" src="https://user-images.githubusercontent.com/62411918/154217987-3aaf6d9d-9961-42a9-bbf1-bf4f59804963.png">
 
-
+<br>
 <br>
 
 ### 2/16 현재, Advanced 에서 많은 시도를 해보고 있다!
@@ -77,6 +86,7 @@ https://user-images.githubusercontent.com/62411918/154218087-c19bec1e-9c3c-414c-
 
 <br>
 <br>
+
 메인 페이지는 이렇게 수정이 되었다.
 
 <br>
@@ -97,6 +107,10 @@ https://user-images.githubusercontent.com/62411918/154217640-75a08a3f-2215-4ece-
 
 또한 다른 네트워크에서 Rinkeby 네트워크에서 스마트 컨트랙트를 배포하여 진돗개 NFT List를 가져올 수 있었다.
 
+<br>
+<br>
+<br>
+
 <img width="1027" alt="Screen Shot 2022-02-16 at 3 58 42 PM" src="https://user-images.githubusercontent.com/62411918/154217167-27159bc3-2d84-4803-98b4-45bf053cac0c.png">
 
 
@@ -106,7 +120,6 @@ https://user-images.githubusercontent.com/62411918/154217640-75a08a3f-2215-4ece-
 
 Nav 탭에서 프로필, 지갑 아이콘이 정렬하고 지갑 주소와 연결된 것을 Nav에서 바로 확인할 수 있는 기능을 추가하였다.
 <img width="2041" alt="Screen Shot 2022-02-17 at 10 09 30 AM" src="https://user-images.githubusercontent.com/62411918/154384804-0d2aadf7-6137-4e4b-b359-98cd4a105796.png">
-
 
 <br>
 <br>
