@@ -64,6 +64,11 @@
 중간 점검
 <img width="1436" alt="Screenshot 2022-02-15 at 15 04 19" src="https://user-images.githubusercontent.com/62411918/154002267-03864cb0-2619-4eae-9b2a-830108c8000c.png">
 
+<br>
+<br>
+<br>
+
+프로필 페이지와 메인페이지를 분리하였다. 메인페이지에는 Dinosaure의 컬렉션들을 추가하였다.
 
 https://user-images.githubusercontent.com/62411918/154218087-c19bec1e-9c3c-414c-922e-e6af36dc22e2.mov
 
