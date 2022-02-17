@@ -140,7 +140,9 @@ Nav 탭에서 프로필, 지갑 아이콘이 정렬하고 지갑 주소와 연�
 <br>
 <br>
 <br>
+
 <b>Connect</b>
+
 <br>
 <br>
 <br>
@@ -149,10 +151,13 @@ Nav 탭에서 프로필, 지갑 아이콘이 정렬하고 지갑 주소와 연�
 <br>
 <br>
 <br>
+
 <b>Connected</b>
+
 <br>
 <br>
 <br>
+
 ![nav connected](https://user-images.githubusercontent.com/62411918/154393095-07c8e93c-d397-4e28-b3f3-37bc31e4a53d.png)
 
 <br>
