@@ -144,8 +144,12 @@ Nav 탭에서 프로필, 지갑 아이콘이 정렬하고 지갑 주소와 연�
 <br>
 <br>
 <br>
-<center><img width="160" alt="nav_update" src="https://user-images.githubusercontent.com/62411918/154392526-5314dd07-2902-488a-8ee9-78b8c4ca1e81.png"></center>
+![nav_connect](https://user-images.githubusercontent.com/62411918/154393084-0fe9c6f4-edb7-4c41-a1ad-21b45551f3ba.png)
 
+<br>
+<br>
+<br>
+![nav connected ](https://user-images.githubusercontent.com/62411918/154393095-07c8e93c-d397-4e28-b3f3-37bc31e4a53d.png)
 <br>
 <br>
 <br>
