@@ -32,7 +32,6 @@ function TokenList({ web3, account }) {
   };
   return (
     <div className="tokenlist">
-      <Erc721 web3={web3} account={account} erc721list={erc721list} />
       <div className="userInfo">Address: {account}</div>
       <div className="newErc721">
         <input
@@ -49,6 +48,7 @@ function TokenList({ web3, account }) {
         >
           Find my NFT
         </button>
+        <Erc721 web3={web3} account={account} erc721list={erc721list} />
       </div>
     </div>
   );
