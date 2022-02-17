@@ -78,11 +78,22 @@ https://user-images.githubusercontent.com/62411918/154217640-75a08a3f-2215-4ece-
 
 
 
+<br>
+컨트랙트를 입력하여 NFT를 찾아볼 수 있는 페이지를 메인페이지에서 분리했다. 지갑 주소가 화면에서 Address에서 바로 보이고 Find My NFT 버튼을 누르면 발행된 NFT 리스트를 볼 수 있다.
+<img width="2043" alt="Screen Shot 2022-02-17 at 10 09 44 AM" src="https://user-images.githubusercontent.com/62411918/154384932-b106f5b4-0346-4010-b055-5688b0d77920.png">
+
+<br>
+
 또한 다른 네트워크에서 Rinkeby 네트워크에서 스마트 컨트랙트를 배포하여 진돗개 NFT List를 가져올 수 있었다.
 
 <img width="1027" alt="Screen Shot 2022-02-16 at 3 58 42 PM" src="https://user-images.githubusercontent.com/62411918/154217167-27159bc3-2d84-4803-98b4-45bf053cac0c.png">
 
 <br>
+Nav 탭에서 프로필, 지갑 아이콘이 정렬하고 지갑 주소와 연결된 것을 Nav에서 바로 확인할 수 있는 기능을 추가하였다.
+<img width="2041" alt="Screen Shot 2022-02-17 at 10 09 30 AM" src="https://user-images.githubusercontent.com/62411918/154384804-0d2aadf7-6137-4e4b-b359-98cd4a105796.png">
+
+
+
 
 ## 프로젝트 설명
 
