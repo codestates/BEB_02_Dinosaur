@@ -68,9 +68,19 @@
 <br>
 <br>
 
-프로필 페이지와 메인페이지를 분리하였다. 메인페이지에는 Dinosaure의 컬렉션들을 추가하였다.
+
+<br>
+<br>
+
+서치바와 버튼에 CSS를 추가하였다. Nav와 비슷한 색상으로 변하게 추가하였다.
+
+<br>
+<br>
 
 https://user-images.githubusercontent.com/62411918/154218087-c19bec1e-9c3c-414c-922e-e6af36dc22e2.mov
+
+
+
 
 <br>
 <br>
@@ -92,7 +102,7 @@ https://user-images.githubusercontent.com/62411918/154218087-c19bec1e-9c3c-414c-
 <br>
 <br>
 
-메인 페이지는 이렇게 수정이 되었다.
+메인 페이지는 이렇게 수정이 되었다. 프로필 페이지와 메인페이지를 분리해서 정리했다.
 
 <br>
 <br>
@@ -104,6 +114,13 @@ https://user-images.githubusercontent.com/62411918/154217640-75a08a3f-2215-4ece-
 <br>
 
 컨트랙트를 입력하여 NFT를 찾아볼 수 있는 페이지를 메인페이지에서 분리했다. 지갑 주소가 화면에서 Address에서 바로 보이고 Find My NFT 버튼을 누르면 발행된 NFT 리스트를 볼 수 있다.
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 <img width="2043" alt="Screen Shot 2022-02-17 at 10 09 44 AM" src="https://user-images.githubusercontent.com/62411918/154384932-b106f5b4-0346-4010-b055-5688b0d77920.png">
 
 <br>
@@ -124,12 +141,17 @@ https://user-images.githubusercontent.com/62411918/154217640-75a08a3f-2215-4ece-
 <br>
 
 Nav 탭에서 프로필, 지갑 아이콘이 정렬하고 지갑 주소와 연결된 것을 Nav에서 바로 확인할 수 있는 기능을 추가하였다.
+<br>
+<br>
+<br>
 <img width="2041" alt="Screen Shot 2022-02-17 at 10 09 30 AM" src="https://user-images.githubusercontent.com/62411918/154384804-0d2aadf7-6137-4e4b-b359-98cd4a105796.png">
 
 <br>
 <br>
 <br>
-
+<br>
+<br>
+<br>
 
 ## 프로젝트 설명
 
