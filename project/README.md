@@ -171,9 +171,23 @@ Nav 탭에서 프로필, 지갑 아이콘이 정렬하고 지갑 주소와 연�
 <br>
 <br>
 
+스크롤바가 너무 많다.
+
+<br>
+<br>
+
 ![scroll_bug](https://user-images.githubusercontent.com/62411918/154392937-abe66de5-cd79-42ba-ba50-780527e3d3d9.png)
+![unknown-3](https://user-images.githubusercontent.com/62411918/154395024-25535bd0-f9f1-4788-aa05-f51414d81f3f.png)
 
+<br>
+<br>
 
+여러 사이트를 참고하고 세로 스크롤바 하나만 만들기로.
+
+<br>
+<br>
+
+<img width="1508" alt="Screen Shot 2022-02-17 at 11 49 32 AM" src="https://user-images.githubusercontent.com/62411918/154395277-520d5e5c-5c62-4b78-91b8-f21140aa8e3b.png">
 
 
 <br>
