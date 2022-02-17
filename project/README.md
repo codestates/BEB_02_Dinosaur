@@ -107,7 +107,7 @@ https://user-images.githubusercontent.com/62411918/154218087-c19bec1e-9c3c-414c-
 <br>
 <br>
 
-메인 페이지는 이렇게 수정이 되었다. 프로필 페이지와 메인페이지를 분리해서 정리했다.
+메인 페이지는 이렇게 수정이 되었다.
 
 <br>
 <br>
@@ -122,7 +122,7 @@ https://user-images.githubusercontent.com/62411918/154217640-75a08a3f-2215-4ece-
 <br>
 <br>
 
-컨트랙트를 입력하여 NFT를 찾아볼 수 있는 페이지를 메인페이지에서 분리했다. 지갑 주소가 화면에서 Address에서 바로 보이고 Find My NFT 버튼을 누르면 발행된 NFT 리스트를 볼 수 있다.
+프로필 페이지이다. 컨트랙트를 입력하여 NFT를 찾아볼 수 있는 페이지를 메인페이지에서 분리했다. 지갑 주소가 화면에서 Address에서 바로 보이고 Find My NFT 버튼을 누르면 발행된 NFT 리스트를 볼 수 있다.
 <br>
 <br>
 <br>
