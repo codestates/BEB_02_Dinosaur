@@ -20,7 +20,7 @@ a {
   :root {
     --sans: "Meta", sans-serif;
     --serif: "Meta Serif", serif;
-    --color-bkg: rgb(240, 240, 238);
+    --color-bkg: rgb(255, 255, 255);
     --color-text: #000;
     --color-hover: rgb(120, 120, 120);
     --color-placeholder: rgb(200, 200, 200);
